@@ -1,0 +1,255 @@
+.nkkheader {
+  position: relative;
+  background-image: url(background.jpeg);
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.nkkheader .mdl-layout__header-row {
+  padding: 0;
+  justify-content: center;
+}
+
+.nkktitle {
+  font-size: 48px;
+  text-align: center;
+  font-family: 'Pacifico', cursive;
+  color: #FFC107;
+  font-weight: 1000;
+}
+
+.is-compact .nkktitle span {
+  display: none;
+}
+
+.top_header {
+  min-height: 200px;
+}
+
+.is-compact .top_header {
+  min-height: auto;
+}
+
+.nkklogo {
+  background: url(images.png) 50% no-repeat;
+  background-size: contain;
+  height: 150px;
+  width: 150px;
+  margin: auto auto 10px;
+  border-radius: 50%;
+}
+
+.is-compact .nkklogo {
+  height: 50px;
+  width: 50px;
+  margin-top: 7px;
+}
+
+.nkkrow {
+  background-color: rgba(0, 0, 0, 0.08);
+  text-transform: uppercase;
+  height: 45px;
+}
+
+.nkkrow  .mdl-navigation {
+  text-align: center;
+  max-width: 900px;
+  width: 100%;
+}
+
+.nkkrow .mdl-navigation__link {
+  color: #FFCA28;
+  -webkit-flex: 1;
+      -ms-flex: 1;
+          flex: 1;
+  line-height: 42px;
+}
+
+
+.nkkrow .is-active {
+  position: relative;
+  font-weight: bold;
+}
+
+.nkkrow .is-active:after {
+  content: "";
+  width: 70%;
+  height: 2px;
+  display: block;
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  background-color: rgb(255,64,129);
+  left: 15%;
+}
+
+
+
+
+
+.limit_width {
+  max-width: 900px;
+  margin: auto;
+}
+
+.index_wrapper {
+  max-width: 700px;
+}
+
+.no-padding {
+  padding: 0;
+}
+
+.no-left-padding{
+  padding-left: 0;
+}
+
+.no-bottom-padding {
+  padding-bottom: 0;
+}
+
+.padding-top {
+  padding: 10px 0 0;
+}
+
+.portfolio-share-btn {
+  position: relative;
+  float: right;
+  top: -4px;
+}
+
+
+
+.faculty.mdl-card {
+  width: 320px;
+  height: 320px;
+}
+.faculty{
+  margin: 20px auto ;
+}
+#faculty_first> .mdl-card__title {
+  color: #fff;
+  background: url('srishti.jpg');
+  background-size: cover;
+}
+#faculty_second> .mdl-card__title {
+  color: #fff;
+  background: url('illiana.jpg');
+  background-size: cover;
+}
+#faculty_third> .mdl-card__title {
+  color: #fff;
+  background: url('niti.jpg');
+  background-size: cover;
+}
+
+
+
+#contact-form {
+  max-width: 90%;
+  margin: 0 auto;
+}
+
+label {
+  font-weight: 400;
+  cursor: pointer;
+}
+
+textarea,
+input {
+  border: none;
+  outline: none;
+  border-radius: 0;
+  text-align: center;
+  background: none;
+  font-weight: 700;
+  font-family: 'Lato', georgia;
+  font-size: 25px;
+  color: rgba(255, 255, 255, 1);
+  max-width: 90%;
+  padding: 1rem;
+  border: 2px dashed rgba(255, 255, 255, 0);
+  box-sizing: border-box;
+  cursor: text;
+}
+
+textarea {
+  text-align: left;
+  resize: none;
+  width: 90%;
+  border-color: rgba(255, 255, 255, 0)
+}
+
+
+
+.expanding {
+  vertical-align: top;
+}
+
+
+
+body {
+  font-family: 'Lato', georgia;
+  font-size: 25px;
+  color: rgba(255, 255, 255, 1);
+  background-color: rgba(236, 181, 62, 0.95);
+  text-align: center;
+  font-weight: 300;
+  -webkit-font-smoothing: antialiased;
+}
+
+::placeholder {
+  text-align: center;
+  color: rgba(255, 255, 255, 0.4);
+  font-style: italic;
+  font-weight: 400;
+}
+
+
+
+
+
+.row {
+  display: flex;
+  flex-wrap: wrap;
+  padding: 0 4px;
+}
+
+.column {
+  flex: 25%;
+  max-width: 25%;
+  padding: 0 4px;
+}
+
+.column img {
+  margin-top: 8px;
+  vertical-align: middle;
+}
+
+
+@media screen and (max-width: 800px) {
+  .column {
+    flex: 50%;
+    max-width: 50%;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  .column {
+    flex: 100%;
+    max-width: 100%;
+  }
+}
+
+#quote{
+  font-size: 128%;
+}
+
+#jazz{
+  width: 100%;
+  height: 80%
+}
+#contempary{
+  width: 100%;
+}
+

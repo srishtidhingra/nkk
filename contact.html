@@ -1,0 +1,74 @@
+<!doctype html>
+
+<html lang="en">
+
+<head>
+    <title>Nritya Kala Kendra</title>
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:regular,bold,italic,thin,light,bolditalic,black,medium&amp;lang=en">
+    <link rel="stylesheet" href="https://code.getmdl.io/1.3.0/material.grey-pink.min.css" />
+    <link rel="stylesheet" href="styles.css" />
+    <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
+</head>
+
+<body>
+    <div class="mdl-layout mdl-js-layout mdl-layout--fixed-header">
+        <header class="mdl-layout__header mdl-layout__header--waterfall nkkheader">
+            <div class="mdl-layout__header-row top_header">
+                <span class="nkktitle">
+                    <div class="nkklogo"></div>
+                <span class="nkktitle">Nritya Kala Kendra</span>
+                </span>
+            </div>
+            <div class="mdl-layout__header-row nkkrow mdl-layout--large-screen-only">
+                <nav class="mdl-navigation mdl-typography--body-1-force-preferred-font">
+                    <a class="mdl-navigation__link " href="index.html">Portfolio</a>
+                    <a class="mdl-navigation__link" href="studio.html">Studio</a>
+                    <a class="mdl-navigation__link" href="faculty.html">Faculty</a>
+                    <a class="mdl-navigation__link is-active" href="contact.html">Contact</a>
+                </nav>
+            </div>
+        </header>
+        <div class="mdl-layout__drawer mdl-layout--small-screen-only">
+            <nav class="mdl-navigation mdl-typography--body-1-force-preferred-font">
+                <a class="mdl-navigation__link is-active" href="index.html">Portfolio</a>
+                <a class="mdl-navigation__link" href="studio.html">Studio</a>
+                <a class="mdl-navigation__link" href="faculty.html">Faculty</a>
+                <a class="mdl-navigation__link" href="contact.html">Contact</a>
+            </nav>
+        </div>
+        <main class="mdl-layout__content">
+            <br><br>
+            <form id="contact-form">
+                <p>Hey Nritya Kala Kendra,</p>
+                <p>My
+                    <label for="your-name">name</label> is
+                    <input type="text" name="your-name" id="your-name" minlength="3" placeholder="(your name here)" required> and</p>
+                <p>my
+                    <label for="email">email address</label> is
+                    <input type="email" name="your-email" id="email" placeholder="(your email address)" required>
+                </p>
+                <p> I have a
+                    <label for="your-message">message</label> for you,</p>
+                <p>
+                <textarea name="your-message" id="your-message" placeholder="(your msg here)" class="expanding" required></textarea>
+                </p>
+                <p>
+                <button class="mdl-button mdl-js-button mdl-button--raised" id="submit_button">
+                    Send It
+                </button>
+                </p>
+            </form>
+        </main>
+        </div>
+    <link href='https://fonts.googleapis.com/css?family=Lato' rel='stylesheet' type='text/css'>
+    <script src="https://code.getmdl.io/1.3.0/material.min.js"></script>
+    <script type="text/javascript">
+        var button=document.getElementById("submit_button");
+        button.onclick=function(e){
+            alert("Your response has been submitted");
+        };
+    </script>
+</body>
+
+
+</html>
